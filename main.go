@@ -13,9 +13,9 @@ func main() {
 
 		numbersize := len(numbers)
 		random := rand.Intn(numbersize)
-		//random number print
+		//random number print.
 		fmt.Println(numbers[random])
-		//Delete previously printed element from list
+		//Delete previously printed element from list.
 		numbers = append(numbers[:random], numbers[random+1:]...)
 
 	}
