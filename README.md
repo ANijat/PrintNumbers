@@ -18,7 +18,7 @@ amd64
 ```
 For build you need execute given command.
 ```shell
-$ go build main.go
+$ go build -o path-to-binary
 ```
 To run the binary on machine you need to make sure that binary is executable:
 ```shell
