@@ -2,7 +2,8 @@
 Print the numbers from 1 to 10 in random order 
 
 
-If binary will target MacOS, please make sure that given env (GOOS GOARCH) should be same as result.
+### How to run the program 
+Based on the target OS, you must ensure that the env (GOOS, GOARCH) should be as follow:
  
 for MacOS
 ```shell                            
@@ -16,7 +17,7 @@ $ go env GOOS GOARCH
 linux
 amd64
 ```
-For build you need execute given command.
+To build an executable you need to run the given command
 ```shell
 $ go build -o path-to-binary
 ```
